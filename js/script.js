@@ -33,3 +33,16 @@ document.getElementById('minus2').addEventListener('click', function () {
 document.getElementById('plus2').addEventListener('click', function () {
     calcyPlus('value2', 'price2', 'price1', 600, true);
 })
+
+function deleteItem(itemName) {
+    const item = document.getElementById(itemName)
+    item.style.display = 'none';
+}
+
+document.getElementById('delete1').addEventListener('click', function () {
+    deleteItem('item1');
+})
+
+document.getElementById('delete2').addEventListener('click', function () {
+    deleteItem('item2');
+})

@@ -10,38 +10,50 @@
 </head>
 <body>
     <section class="container mt-4">
-    <div class="row g-2">
-        <div class="card mb-3 border-0 shadow-lg pe-3 rounded-3">
+    <div class="row g-2" id="items">
+        <div class="card mb-3 border-0 shadow-lg rounded-3" id="item1">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/item2.png" class="img-fluid rounded-start img" alt="...">
+                <img src="images/item.png" class="img-fluid rounded-start img" alt="...">
               </div>
                 <div class="col-md-2 mt-4">
                   <h3 class="card-title mt-5 pt-2">Xiaomi x2</h3>
                 </div>  
-                 <div class="col-md-6 d-flex py-5 justify-content-around align-items-center">
+                 <div class="col-md-2 d-flex py-5 justify-content-around align-items-center">
                     <button type="button" class="btn btn-danger text-white fw-bolder" id="minus1">-</button>
                     <input class="form-control" value="1" type="text" id="value1" aria-label="default input example">
                     <button type="button" class="btn btn-danger text-white fw-bolder" id="plus1">+</button>
-                    <h1 class="ms-5 text-danger">$<span id="price1">400</span></h1>
+                  </div>  
+                    <div class="col-md-2 mt-5">
+                      <h1 class="ms-5 text-danger mt-4">$<span id="price1">400</span></h1>
+                    </div>
+                    <div class="col-md-2 mt-5 pt-2">
+                      <button type="button" class="btn btn-outline-danger fw-bolder mt-4" id="delete1">Delete</button>
+                    </div>
                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3 border-0 shadow-lg pe-3 rounded-3">
+          <div class="card mb-3 border-0 shadow-lg rounded-3" id="item2">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/item2.png" class="img-fluid rounded-start img" alt="...">
+                <img src="images/item.png" class="img-fluid rounded-start img" alt="...">
               </div>
-              <div class="col-md-2 mt-4">
-                <h3 class="card-title mt-5 pt-2">Xiaomi x3</h3>
-              </div>  
-                  <div class="col-md-6 d-flex py-5 justify-content-around align-items-center">
-                        <button type="button" class="btn btn-danger text-white fw-bolder" id="minus2">-</button>
-                        <input class="form-control" value="1" type="text" id="value2" aria-label="default input example">
-                        <button type="button" class="btn btn-danger text-white fw-bolder" id="plus2">+</button>
-                        <h1 class="ms-5 text-danger">$<span id="price2">600</span></h1>
+                <div class="col-md-2 mt-4">
+                  <h3 class="card-title mt-5 pt-2">Xiaomi x3</h3>
+                </div>  
+                 <div class="col-md-2 d-flex py-5 justify-content-around align-items-center">
+                    <button type="button" class="btn btn-danger text-white fw-bolder" id="minus2">-</button>
+                    <input class="form-control" value="1" type="text" id="value2" aria-label="default input example">
+                    <button type="button" class="btn btn-danger text-white fw-bolder" id="plus2">+</button>
+                  </div>  
+                    <div class="col-md-2 mt-5">
+                      <h1 class="ms-5 text-danger mt-4">$<span id="price2">600</span></h1>
+                    </div>
+                    <div class="col-md-2 mt-5 pt-2">
+                      <button type="button" class="btn btn-outline-danger fw-bolder mt-4" id="delete2">Delete</button>
+                    </div>
                  </div>
                 </div>
               </div>
@@ -49,7 +61,7 @@
           </div>
         </div>
     </section>
-    <section class="container d-flex justify-content-between align-items-center mb-5">
+    <section class="container d-flex justify-content-between align-items-center mb-5 px-5">
         <div>
             <h3>SubTotal:</h3>
             <h3>Tax:</h3>
