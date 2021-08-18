@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container mt-5">
+    <div class="row g-2">
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/item2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+                <div class="col-md-2">
+                  <h5 class="card-title">Xiaomi x2</h5>
+                </div>  
+                 <div class="col-md-6 d-flex py-5 justify-content-around align-items-center">
+                    <button type="button" class="btn btn-warning" id="minus1">-</button>
+                    <input class="form-control" value="1" type="text" id="value1" aria-label="default input example">
+                    <button type="button" class="btn btn-warning" id="plus1">+</button>
+                    <h1 class="ms-5">$<span id="price1">400</span></h1>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/item2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-2">
+                <h5 class="card-title">Xiaomi x2</h5>
+              </div>  
+                  <div class="col-md-6 d-flex py-5 justify-content-around align-items-center">
+                        <button type="button" class="btn btn-warning" id="minus2">-</button>
+                        <input class="form-control" value="1" type="text" id="value2" aria-label="default input example">
+                        <button type="button" class="btn btn-warning" id="plus2">+</button>
+                        <h1 class="ms-5">$<span id="price2">600</span></h1>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container d-flex justify-content-between align-items-center mb-5">
+        <div>
+            <h3>SubTotal</h3>
+            <h3>Tax</h3>
+            <h3>Total</h3>
+        </div>
+        <div>
+            <h3>$<span id="subtotal">1000</span></h3>
+            <h3>$<span id="tax">50</span></h3>
+            <h3>$<span id="total">1050</span></h3>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
